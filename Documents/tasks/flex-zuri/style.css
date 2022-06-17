@@ -1,38 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
 
-/* # Front-end Style Guide
-
-## Layout
-
-The designs were created to the following widths:
-
-- Mobile: 375px
-- Desktop: 1440px
-
-## Colors
-
-### Primary
-
-
-
-### Neutral
-
-Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
-Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
-
-## Typography
-
-### Body Copy
-
-- Font size: 15px
-
-### Font
-
-- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
-- Weights: 400
-
-- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
-- Weights: 700 */
 * {
   margin: 0;
   border: 0;
@@ -86,7 +54,7 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 
 .card-para {
   color: hsla(0, 0%, 100%, 0.75);
-  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
   font-weight: 400;
   font-size: 15px;
 }
@@ -113,20 +81,20 @@ Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
 }
 
 .card-btn-1:hover {
-  border-width: 2px;
-  border-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+
+  color: hsl(0, 0%, 95%);
   background-color: hsl(31, 77%, 52%);
 }
 
 .card-btn-2:hover {
-  border-width: 2px;
-  border-color: hsl(0, 0%, 95%);
-
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
   background-color: hsl(184, 100%, 22%);
 }
 .card-btn-3:hover {
-  border-width: 2px;
-  border-color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
   background-color: hsl(179, 100%, 13%);
 }
 
